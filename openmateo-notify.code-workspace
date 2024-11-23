@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		// enviorment variables for linux and macos
+		"terminal.integrated.env.linux": {
+			"PYENV_ROOT": "$HOME/.pyenv",
+			"PYTHONPATH": "${workspaceFolder}/src:$PYTHONPATH"
+		},
+		"terminal.integrated.env.osx": {
+			"PYENV_ROOT": "$HOME/.pyenv",
+			"PYTHONPATH": "${workspaceFolder}/src:$PYTHONPATH"
+		}
+	}
+}
