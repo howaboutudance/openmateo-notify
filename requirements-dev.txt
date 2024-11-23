@@ -1,0 +1,22 @@
+# package building
+setuptools
+wheel
+
+# core libraries
+httpx
+orjson
+
+# testing
+nox
+pytest
+pytest-cov
+
+# linting
+ruff
+
+# documentation
+sphinx
+
+# development
+ipython
+ipdb
